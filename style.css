@@ -40,6 +40,12 @@ a{
 }
 
 a:hover{
+  text-decoration: none;a
+  color:#423E37;
+}
+
+a:visited{
   text-decoration: none;
   color:#423E37;
+  border-width:1px;
 }
