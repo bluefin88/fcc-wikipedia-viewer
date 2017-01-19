@@ -1,0 +1,17 @@
+input[type=search] {
+    width: 130px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+button{
+  margin-top: 20px;
+}
+
+
+.btn-default{
+  /*background-color:red;*/
+}
