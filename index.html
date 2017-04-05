@@ -78,7 +78,7 @@
         $(".content").append(card);
     }
 
-
+    // Wiki API Call
     function searchWiki(){
         $(".content").html("");
         var searchTerm = $("#searchForm").val();
@@ -90,8 +90,6 @@
             success: function(data, status, jqXHR) {
                 //Data check
                 console.log(data);
-                console.log(data[1][0]);
-                console.log(data[1][1]);
 
                 // Loop Card Creation
                 var totalReturnEntries = data[1].length;
@@ -111,10 +109,8 @@
             console.log("complete");
         })
     }
-
-
     </script>
 
-
+    
 </body>
 </html>
